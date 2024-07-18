@@ -1,0 +1,46 @@
+.grid-container{
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas:
+    "header header header header header header"
+    "spidey main main content1 content1 content3"
+    "spidey main main content2 content2 content3"
+    "footer footer footer footer footer footer";
+    gap: 20px;
+
+}
+
+#header{
+    grid-area: header;
+    background-color: blue;
+}
+
+#sidear{
+    grid-area: spidey;
+    background-color: chartreuse;
+}
+
+#main{
+    grid-area: main;
+    background-color: crimson;
+}
+
+#content1{
+    grid-area: content3;
+    background-color: darkgray;
+}
+
+#content2{
+    grid-area: content1;
+    background-color: darkorange;
+}
+
+#content3{
+    grid-area: content2;
+    background-color: deeppink;
+}
+
+#footer{
+    grid-area: footer;
+    background-color: gold;
+}

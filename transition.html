@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        body{
+            background-color:rgb(0, 0, 0);
+        }
+        .smile{
+            margin-left: 600px;
+            margin-top: 200px;
+            width: 80px;
+            /* translate */
+            /* transform: translateX(500px); */
+            /* transform: translateY(500px); */
+            /* shorthand property */
+            /* transform: translate(200px,400px); */
+
+
+            /* rotate */
+            /* transform: rotateX(2500deg); */
+            /* transform: rotateY(250deg); */
+            /* transform: rotateZ(240deg); */
+            /* transform: rotate(233deg); */
+            /* transform: rotate3d(1,1,0,70deg); */
+
+
+            /* scale (zoom) */
+            /* transform: scaleX(3);
+            transform: scaleY(3); */
+            /* transform: scale(7,5); */
+
+
+
+
+            /* skew */
+            /* transform: skewX(160deg); */
+            /* transform:skewY(30deg); */
+            /* transform: skew(60deg); */
+
+        }
+        .smile:hover{
+            /* width: 500px; */
+            /* transition: width 5s ease-out; */
+            /* transform: translateX(1080px); */
+            transition: transform 5s ease-in-out;
+            transition-delay: 3s;
+            /* transform: translate(300px) scale(2,1); */
+            /* transform: translateX(800px) translateY(400px) rotate(60deg); */
+            transform: skew(1000deg) rotate(360deg);
+
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <img src="images-removebg-preview.png" alt="mewo" class="smile">
+</body>
+</html>
